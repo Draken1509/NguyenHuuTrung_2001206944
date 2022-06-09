@@ -1,0 +1,136 @@
+
+.banner.img{
+    width: 100%;
+    
+}
+.menu{
+    text-align: center;
+}
+.menu >ul li a{
+    display: block; padding: 0 25px;
+    color: rgb(101, 98, 98);
+    text-decoration: none;
+    line-height: 50px;
+    /* background: #eadcdc; */
+}
+.menu >ul li{
+    display: inline-block;
+   
+}
+.menu li ul{
+    display: none;position: absolute;
+}
+.menu >ul li:hover a{
+    color: rgb(19, 135, 229);
+    /* background: #f1f1f1; */
+    /* background: #999999; */
+}
+.wrapper{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.personnelMain {
+    padding-bottom: 20px;
+    padding-bottom: 15px;
+    
+}
+.personnelMain .gripPerSon{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5px;
+    align-items: stretch;
+    align-content: center;
+    /* background:#f1f1f1; */
+    float: left;
+    padding-bottom: 15px;
+    padding-bottom: 15px;
+    
+}
+.personnelMain .gripPerSon > div{
+    padding: 0 35px;
+    padding-bottom: 15px;
+}
+.personnelMain .gripPerSon .colL{
+    width: 55%;
+}
+.personnelMain .gripPerSon .colL1{
+    width: 45%;
+}
+.personnelMain .gripPerSon .colL3{
+    width: 25%;
+}
+
+.personnelMain .gripPerSon .colR{
+    width: 45%;
+}
+.personnelMain .gripPerSon .colR1{
+    width: 55%;
+}
+.personnelMain .gripPerSon .colR3{
+    width: 75%;
+}
+    .personnelMain .gripPerSon .colR .thumbPer{height:100%; }
+    .personnelMain .decsPer { padding:30px 0px; padding-left: 80px; }
+    .personnelMain .gripPerSon .colR .thumbPer .img {  width: 100%;height: 100%;}
+
+.py-5{
+    padding-left: 30px;
+    padding: 50px 0 50px 0;
+}   
+
+.regulationsBot .paddingAll.gripreguBot{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5px;
+    align-items: stretch;
+    align-content: center;
+    /* background:#f1f1f1; */
+    float: left;
+    
+}
+.gripreguBot{
+    display: flex;
+}
+.regulationsBot .paddingAll .gripreguBot .colL{
+    width: 45%;
+    padding-top: 50px;
+}
+
+.regulationsBot .paddingAll .gripreguBot .colR{
+    width: 55%;
+}
+.regulationsBot{
+    /* background:#bbb6b6; */
+    padding-bottom: 15px;
+    padding: 50px 0 50px 0;
+}
+.regulationsBot .paddingAll .gripreguBot .colR .thumbPer{height:100%; }
+.regulationsBot .paddingAll .gripreguBot { padding:30px 0px; padding-left: 80px; }
+.regulationsBot .paddingAll .gripreguBot .colR .thumbPer bg-cover .img {  width: 100%;height: 100%; }
+
+.inputfile-box label {
+    width: calc(100% - 110px);
+}
+
+.inputfile-box .file-box {
+    display: block;
+    overflow: hidden;
+    height: 45px;
+    padding: 5px 10px;
+    line-height: 27px;
+    font-weight: 500;
+    /* background-color: #fff; */
+    position: relative;
+    width: 100%;
+}
+element.style {
+    text-align: justify;
+    animation-delay: 0.3s;
+}
+.banner1 {
+    margin-top: 0px;
+    background-image: url(../../Image/banner1.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+}

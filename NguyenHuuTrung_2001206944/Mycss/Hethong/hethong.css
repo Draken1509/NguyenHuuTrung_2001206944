@@ -1,0 +1,44 @@
+.circle {
+ 
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    padding-block: 23px;
+    padding-bottom: auto;
+    border: solid #777777 3px;
+    color:#777777;;
+    display:flexbox;    
+}
+ .circle:hover{
+    border: solid #02437b 7px;
+    color:#02437b;
+
+ }
+
+.ptext {
+    font-size: 25px;
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    color: aliceblue;
+    
+
+ 
+}
+.ptext :hover{
+   
+    color:#02437b;
+    font-weight: 400;
+  
+}
+ /* #0066b3; */
+ .content1_hethong{
+     width: 100%;
+     min-height:500px ;
+     background-image: url('../../Image/BG/bg-map5.jpg');
+     background-size: 100%;
+     background-repeat: no-repeat;;
+ }
